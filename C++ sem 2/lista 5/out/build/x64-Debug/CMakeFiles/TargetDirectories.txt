@@ -1,0 +1,3 @@
+C:/Users/macie/OneDrive - Uniwersytet Wrocławski/C++ sem 2/lista 5/out/build/x64-Debug/CMakeFiles/image.dir
+C:/Users/macie/OneDrive - Uniwersytet Wrocławski/C++ sem 2/lista 5/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/macie/OneDrive - Uniwersytet Wrocławski/C++ sem 2/lista 5/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

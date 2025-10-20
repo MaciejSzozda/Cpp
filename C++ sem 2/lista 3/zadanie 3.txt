@@ -1,0 +1,34 @@
+//Maciej Szozda zadanie 1
+#include <iostream>
+
+struct Link
+{
+    int value;
+    Link* next=nullptr;
+};
+
+
+void reverse(struct Link **head_ref) {
+    struct Link *temp = NULL;
+    struct Link *prev = NULL;
+    struct Link *current = (*head_ref);
+    while(current != NULL) {
+        temp = current->next;
+        current->next = prev;
+        prev = current;
+        current = temp;
+    }
+    (*head_ref) = prev;
+}
+
+void printL(Link* node)
+{
+    while (node != NULL)
+    {
+        std::cout << node->value << " ";
+        node = node->next;
+    }
+}
+
+int main()
+{
